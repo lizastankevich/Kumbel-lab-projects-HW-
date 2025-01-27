@@ -1,4 +1,4 @@
-function nameCondition(name){
+function GetResponseByName(name){
      if(name === "Jasmin") {
    console.log("Сегодня твой счастливый день! получи свой приз");
      } else if(name === "Aidana") {
@@ -7,7 +7,7 @@ function nameCondition(name){
    console.log("Добро пожаловать "+ name);
    }
 }
-nameCondition("Jasmin");
-nameCondition("Aidana");
-nameCondition("Liza");
-nameCondition("Saya");
+GetResponseByName("Jasmin");
+GetResponseByName("Aidana");
+GetResponseByName("Liza");
+GetResponseByName("Saya");
